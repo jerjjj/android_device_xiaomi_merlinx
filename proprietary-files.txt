@@ -26,6 +26,8 @@ vendor/lib64/libaudio_param_parser-vnd.so
 vendor/lib64/soundfx/libaudiopreprocessing_mtk.so
 
 # Audio-Hardware
+vendor/bin/hw/android.hardware.audio.service.mediatek
+vendor/etc/init/android.hardware.audio.service.mediatek.rc
 vendor/lib/hw/android.hardware.audio@6.0-impl-mediatek.so
 vendor/lib/hw/android.hardware.audio@7.0-impl-mediatek.so
 vendor/lib/hw/audio.primary.mt6768.so
@@ -552,7 +554,7 @@ lib64/libimsma_socketwrapper.so
 lib64/libvt_avsync.so
 lib64/libvcodec_cap.so
 lib64/libvcodec_capenc.so
--priv-app/ImsService/ImsService.apk|48a39baefd82b5c7cb74383beefc6bd3a6a988df
+-priv-app/ImsService/ImsService.apk
 system_ext/lib/vendor.mediatek.hardware.videotelephony@1.0.so:lib/vendor.mediatek.hardware.videotelephony@1.0.so
 system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:lib64/vendor.mediatek.hardware.videotelephony@1.0.so
 
@@ -886,11 +888,8 @@ vendor/lib64/hw/thermal_hal.so
 # Time
 
 # WiFi
-vendor/bin/hw/hostapd
 vendor/bin/hw/wpa_supplicant
 vendor/etc/init/android.hardware.wifi.supplicant-service.rc
-vendor/etc/init/hostapd.android.rc
-vendor/etc/vintf/manifest/android.hardware.wifi.hostapd.xml
 -vendor/etc/vintf/manifest/android.hardware.wifi.supplicant.xml
 
 # Xiaomi

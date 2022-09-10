@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2021 The LineageOS Project
+# Copyright (C) 2021 The kscopeOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -29,8 +29,7 @@ PRODUCT_COPY_FILES += \
 # Overlays
 PRODUCT_PACKAGES += \
     FrameworksResOverlayMerlinx \
-    SystemUIOverlayMerlinx \
-    $(DEVICE_PATH)/overlay-xd
+    SystemUIOverlayMerlinx
 
 # Kernel
 PRODUCT_COPY_FILES += \

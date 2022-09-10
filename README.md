@@ -1,6 +1,4 @@
 
-the source code from mt6768Team,I only revise some code 
-
 The Xiaomi Redmi Note 9 (codenamed _"merlinx"_) is an entry-level smartphone from Xiaomi announced in April 2020.
 
 ## Device specifications
